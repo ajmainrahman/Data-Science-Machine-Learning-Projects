@@ -2,10 +2,12 @@
 
 -----
 **What:** Chatbot that answers questions from uploaded documents
+
 **Tools:** LangChain + FAISS/ChromaDB + OpenAI
+
 **Steps:**
-. Parse PDF → Chunk text → Embed → Store in Vector DB
-. Use Retrieval-Augmented Generation (RAG)
-. Optional: Add file upload UI (Gradio/Streamlit)
+1. Parse PDF → Chunk text → Embed → Store in Vector DB
+2. Use Retrieval-Augmented Generation (RAG)
+3. Optional: Add file upload UI (Gradio/Streamlit)
 
 
