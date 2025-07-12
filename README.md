@@ -1,81 +1,35 @@
-# LeetCode “Crack SQL Interview in 50 Qs” (SQL 50) study plan
+# 🧠 AI-Powered Applications: RAG, Agents, Multimodal & Automation Projects
+This repository showcases a collection of advanced AI projects focused on real-world applications of LLMs, Retrieval-Augmented Generation (RAG), agentic workflows, OCR, multimodal search, and audio processing. From intelligent document Q&A systems to personalized job recommenders and meeting summarizers, each project demonstrates the integration of cutting-edge AI tools like OpenAI, LangChain, Whisper, LayoutLM, and vector databases to solve complex tasks across text, audio, and image modalities.
 
----
+------
 
-### SELECT – *Easy*
+**1. RAG-Based Domain-Specific Q&A System**
+- A chatbot powered by LLM + vector database that answers questions from custom documents like legal contracts or company policies using Retrieval-Augmented Generation (RAG).
 
-1. 1757 Recyclable and Low Fat Products
-2. 584 Find Customer Referee
-3. 595 Big Countries
-4. 1148 Article Views I
-5. 1683 Invalid Tweets
-6. 1378 Replace Employee ID With The Unique Identifier
-7. 1068 Product Sales Analysis I
-8. 1581 Customer Who Visited but Did Not Make Any Transactions
-9. 197 Rising Temperature
-10. 1661 Average Time of Process per Machine
-11. 577 Employee Bonus
-12. 1280 Students and Examinations
-13. 570 Managers with at Least 5 Direct Reports
-14. 1934 Confirmation Rate
-15. 620 Not Boring Movies
+**2. Agentic AI Workflow Assistant (Multi-Step Planner)**
+An LLM-driven agent that automates multi-step tasks (e.g., booking flights, hotels, and blocking calendars) using API calls and tools like LangGraph or AutoGen.
 
----
+**3. Multimodal RAG for Image + Text Search**
+Search across both images and text in slides or PDFs (e.g., YouTube presentations) with questions like “Where does person X talk about success?” using multimodal RAG.
 
-### AGGREGATION & GROUP BY – *Easy/Medium*
+**4. AI Research Assistant for Papers & PDFs**
+Upload academic papers and ask research-specific questions like “What’s the main contribution?” or “Summarize Section 3.1” using LLM + document parsing.
 
-16. Average Selling Price
-17. Project Employees I
-18. Percentage of Users Attended a Contest
-19. Queries Quality and Percentage
-20. Monthly Transactions I
-21. Immediate Food Delivery II
-22. Game Play Analysis IV
+**5. Meeting Extractor (Audio → Text → LLM Insights)**
+Transcribes meetings, extracts action items and decisions, and generates follow-up emails from audio files using Whisper and LLMs.
 
----
+**6. Invoice or Document Parsing Using OCR + Transformers**
+Extract structured data (like names, dates, totals) from scanned or messy PDFs using OCR (Tesseract) and document layout models like LayoutLM or Donut.
 
-### SORTING & GROUPING – *Easy*
+**7. AI-Powered Job or Course Recommender System**
+Recommends personalized jobs or courses by scraping listings, embedding skill requirements, and matching them with user profiles using semantic search.
 
-23. Number of Unique Subjects Taught by Each Teacher
-24. User Activity for the Past 30 Days I
-25. Product Sales Analysis III
-26. Classes More Than 5 Students
-27. Find Followers Count
-28. Biggest Single Number
-29. Customers Who Bought All Products
+**8. Voice-to-Text App with Speaker Separation**
+A speech-to-text app that transcribes audio and separates speakers using Whisper and speaker diarization models like PyAnnote or NVIDIA NeMo.
 
----
+**9. Policy Navigator: AI for Legal & Government Docs**
+Lets users ask questions about local laws or public policies, powered by LLM + vector search from scraped government/legal documents.
 
-### ADVANCED SELECT & JOINS – *Easy/Medium*
+**10. Multimodal Personal Knowledge Base Agent**
+Upload notes, PDFs, images, code snippets, and ask personalized queries like “What was the score of my last model?” using multimodal LLM + vector search.
 
-30. The Number of Employees Which Report to Each Employee
-31. Primary Department for Each Employee
-32. Triangle Judgement
-33. Consecutive Numbers
-34. Product Price at a Given Date
-35. Last Person to Fit in the Bus
-36. Count Salary Categories
-
----
-
-### SUBQUERIES & CTEs – *Easy/Medium/Hard*
-
-37. Employees Whose Manager Left the Company
-38. Exchange Seats
-39. Movie Rating
-40. Restaurant Growth
-41. Friend Requests II: Who Has the Most Friends
-42. Investments in 2016
-43. Department Top Three Salaries
-
----
-
-### ADVANCED STRING FUNCTIONS / REGEX / CLAUSE – *Easy/Medium*
-
-44. Fix Names in a Table
-45. Patients With a Condition
-46. Delete Duplicate Emails
-47. Second Highest Salary
-48. Group Sold Products By The Date
-49. List the Products Ordered in a Period
-50. Find Users With Valid E‑Mails
